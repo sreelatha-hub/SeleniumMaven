@@ -8,7 +8,7 @@ public class Login {
 		ChromeDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.geeksforgeeks.org/");
-		System.out.println(driver.getTitle());
+		System.out.println("title"+driver.getTitle());
 	}
 
 }
